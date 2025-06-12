@@ -1,0 +1,136 @@
+
+body {
+
+    font-family: Arial, sans-serif;
+
+    margin: 0;
+
+    padding: 0;
+
+    text-align: center;
+
+}
+
+
+
+header {
+    background-image: url('./petshop-img/jumbotron.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    color: white;
+}
+
+
+
+nav a {
+
+    margin: 0 15px;
+
+    text-decoration: none;
+
+    color: white;
+
+    font-weight: bold;
+
+    
+
+}
+
+nav a:hover {
+
+    text-decoration: underline;
+
+}
+
+
+
+.featured {
+
+    margin: 20px;
+
+}
+
+
+
+.pet-list {
+
+    display: flex;
+
+    justify-content: center;
+
+    gap: 20px;
+
+}
+
+
+
+.pet {
+
+    border: 2px solid #ddd;
+
+    padding: 15px;
+
+    /* text-align: center; */
+
+    justify-content: center;
+
+}
+
+
+
+.pet img {
+
+    width: 150px;
+
+    height: 150px;
+
+    border-radius: 10px;
+
+}
+
+
+
+button {
+
+    background-color: #008CBA;
+
+    color: white;
+
+    padding: 10px;
+
+    border: none;
+
+    cursor: pointer;
+
+}
+
+
+
+button:hover {
+
+    background-color: #005f7a;
+
+}
+
+
+footer{
+    background-color: #afd8e5;
+}
+
+
+
+#main{
+    display: block; 
+    transition: all 0.3s ease;
+}
+
+
+#contact {
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    
+}
+
