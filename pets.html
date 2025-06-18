@@ -12,6 +12,12 @@
 
     <link rel="stylesheet" href="styles.css">
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+
 </head>
 
 <body>
@@ -38,9 +44,27 @@
 
         <section class="featured">
 
-            <h2>All Pets</h2>
+            <h2 style="color:rgb(0, 0, 145)">All Pets</h2>
+            <div style="display: flex; gap: 24px; justify-content: center">
 
-            <div class="pet-list" id="all-pets">
+                <div style="display: flex;">
+                    <div class="checkbox">
+                        <input type="checkbox" id="type-dogs" name="pet-type" value="Dog" checked /> Dogs
+                    </div>
+                    <div  class="checkbox">
+                        <input type="checkbox" id="type-cats" name="pet-type" value="Cat" checked /> Cats
+                    </div>
+                    <div  class="checkbox">
+                        <input type="checkbox" id="type_cappybaras" name="pet-type" value="Cappybara" checked />
+                        Cappybaras
+                    </div>
+                    <div  class="checkbox">
+                        <input type="checkbox" id="type-birds" name="pet-type" value="Bird" checked /> Birds
+                    </div>
+                </div>
+            </div>
+
+            <div class="pet-list" id="pet-list">
 
             </div>
 
@@ -56,7 +80,7 @@
             <div style="padding-right: 20px;">
                 <p>Contact us at: <strong><a href="mailto: info@petstore.com">info@petstore.com</a><strong></p>
                 <p>88 หมู่ที่ 8 ถนน บางนา-ตราด Bang Sao Thong, Bang Sao Thong District, Samut Prakan 10540</p>
-                
+
             </div>
 
             <div>
@@ -70,7 +94,7 @@
     </footer>
 
 
-
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="script.js"></script>
     <script src="loadpets.js"></script>
 
